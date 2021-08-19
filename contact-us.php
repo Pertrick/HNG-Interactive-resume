@@ -20,7 +20,7 @@ if(isset($_POST['submit'])){
         else{
                $_SESSION['save'] = "<div class='good'>Details Sent Successfully!</div>";
 
-                header('location:resumeemaker.herokuapp.com/index');
+                header('location:index.php');
             
     //echo 'Message has been sent';
 }
@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
 
 else{
     $_SESSION['save'] = "<div class='failed'>Failed to send details!</div>";
-     header('location:resumeemaker.herokuapp.com/index');
+     header('location:index.php');
 
                 
 
